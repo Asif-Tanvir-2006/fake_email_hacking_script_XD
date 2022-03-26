@@ -160,7 +160,7 @@ def progress_bar(segments=20, delay=0.05):
     for i in range(segments):
         # Store the progress + the percentage in variables for ease of
         # use
-        progress = "|" * (i+1)
+        progress = "❙" * (i+1)
         percent = int(quotient * (i+1))
 
         # Combine each part of the output seperately
