@@ -149,7 +149,7 @@ def progress_bar(segments=20, delay=0.05):
     A function to print an animated progress bar
     """
     # Progress bar should look like this:
-    # [|||||               ] 25%
+    # [❙❙❙❙❙               ] 25%
 
     # If the number of segments is not divisible by 100%
     if (100 % segments) != 0:
